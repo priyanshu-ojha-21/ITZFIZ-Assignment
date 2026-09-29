@@ -1,16 +1,72 @@
-# React + Vite
+# 🚗 Scroll-Driven Car Animation | Itzfizz Digital Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, interactive scroll-driven car animation landing page built using **React**, **Tailwind CSS**, and **GSAP ScrollTrigger**. Developed for the **Itzfizz Digital** Web Development Internship Assignment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+👉 **[Experience the Live Preview](https://priyanshu-ojha-21.github.io/ITZFIZ-Assignment/)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🏎️ **GSAP ScrollTrigger Animation**: Smooth scroll-linked car motion synced seamlessly with user scrolling.
+- 🎨 **Tailwind CSS Styling**: Modern, clean, and utility-first responsive UI.
+- ⚡ **Vite + React**: Lightning-fast build times and optimal frontend performance.
+- 📱 **Responsive Layout**: Designed to work smoothly across mobile, tablet, and desktop devices.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+| :--- | :--- |
+| **React.js** | Core UI Library |
+| **Vite** | Development Server & Build Tool |
+| **GSAP (ScrollTrigger)** | High-Performance Animations |
+| **Tailwind CSS** | Responsive Layout & Styling |
+| **GitHub Pages** | Live Hosting & Deployment |
+
+---
+
+## 📂 Project Structure
+
+```text
+ITZFIZ-Assignment/
+├── public/           # Static assets
+├── src/
+│   ├── assets/       # Images & graphics
+│   ├── components/   # React components (Hero section, etc.)
+│   ├── App.jsx       # Main application layout
+│   ├── main.jsx      # Entry point
+│   └── index.css     # Global styles & Tailwind directives
+├── vite.config.js    # Vite & deployment configuration
+└── package.json      # Dependencies & scripts
+
+🚀 Local Setup & Installation
+To run this project locally on your machine, follow these steps:
+
+Clone the repository:
+
+Bash
+git clone [https://github.com/priyanshu-ojha-21/ITZFIZ-Assignment.git](https://github.com/priyanshu-ojha-21/ITZFIZ-Assignment.git)
+Navigate to the project directory:
+
+Bash
+cd ITZFIZ-Assignment
+Install dependencies:
+
+Bash
+npm install
+Start the local development server:
+
+Bash
+npm run dev
+👤 Author
+Priyanshu Ojha
+
+GitHub: @priyanshu-ojha-21
+
+Live Project: ITZFIZ Assignment
